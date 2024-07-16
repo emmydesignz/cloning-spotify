@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(9, 30, 11);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar nav{
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu ul{
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    list-style: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.body{
+    width: 50%;
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+
+.body h6{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+.body h1{
+    color: white;
+    width: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.body p{
+    margin-top: 2rem;
+}
+.body p a{
+    color: white;
+    font-weight: bolder;
+}
+
+.body p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(247, 245, 245);
+}
+
+.search img{
+    width: 15px;
+    margin-left: 1rem;
+    margin-right: 7px;
+}
+
+.search input{
+    background-color: rgb(247, 245, 245);
+    width: 250px;
+    border: none;
+    outline: none;
+}
+
+
+.box{
+    height: 30px;
+    width: 100px;
+}
+
+.help{
+    gap: 1rem;
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+}
+
+.pay-help{
+    background-color: rgb(215, 100, 119);
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    height: 80px;
+    width: 150px;
+    padding: 1rem;
+}
+
+.plan-help{
+    background-color: rgb(165, 10, 36);
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    height: 80px;
+    width: 150px;
+    padding: 1rem;
+}
+
+.app-help{
+    background-color: rgb(109, 87, 47);
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    height: 80px;
+    width: 150px;
+    padding: 1rem;
+}
+
+.help-2{
+    gap: 1rem;
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.pay-help-2{
+    background-color: rgb(87, 228, 195);
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    height: 80px;
+    width: 150px;
+    padding: 1rem;
+}
+
+.plan-help-2{
+    background-color: rgb(153, 159, 160);
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    height: 80px;
+    width: 150px;
+    padding: 1rem;
+}
+
+.app-help-2{
+    background-color: rgb(34, 118, 202);
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    height: 80px;
+    width: 150px;
+    padding: 1rem;
+}
